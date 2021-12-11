@@ -272,7 +272,7 @@ export default function Header() {
 									<nav id="dropdown" className="template-main-menu">
 										<ul className="d-flex justify-content-center mb-0 menu-mobile">
 											<li className="position-static d-none d-lg-block">
-												<a href="#">Home</a>
+												<a href="/">Home</a>
 												<div className="mega-menu-container position-absolute p-3">
 													<div className="row">
 														{ renderMenuFirst }
@@ -283,31 +283,31 @@ export default function Header() {
 												<span className="close-mobile-menu d-block d-lg-none"><i className="fas fa-times"></i></span>
 											</li>
 											<li className="d-block d-lg-none">
-												<a href="#">Home</a>
+												<a href="/">Home</a>
 												<ul className="dropdown-menu-col-1 drop-menu-style position-absolute py-3 border-top-0">
 													{ renderMenuSecond }
 												</ul>
 											</li>
 											<li>
-												<a href="#">Services</a>
+												<a href="/">Services</a>
 												<ul className="dropdown-menu-col-1 drop-menu-style position-absolute py-3 border-top-0">
 													{ renderServices }
 												</ul>
 											</li>
 											<li>
-												<a href="#">Portfolio</a>
+												<a href="/">Portfolio</a>
 												<ul className="dropdown-menu-col-1 drop-menu-style position-absolute py-3 border-top-0">
 													{ renderprofolio }
 												</ul>
 											</li>
 											<li>
-												<a href="#">Pages</a>
+												<a href="/">Pages</a>
 												<ul className="dropdown-menu-col-1 drop-menu-style position-absolute py-3 border-top-0">
 													{ listpage }
 												</ul>
 											</li>
 											<li>
-												<a href="#">Blog</a>
+												<a href="/">Blog</a>
 												<ul className="dropdown-menu-col-1 drop-menu-style position-absolute py-3 border-top-0">
 													{ listblog }
 												</ul>
@@ -321,7 +321,7 @@ export default function Header() {
 								<div className="col-lg-2 col-4 my-3 my-lg-0 d-none d-sm-flex justify-content-md-left justify-content-center">
 									<ul className="header-action-items mb-0 d-none d-sm-block">
 										<li className="single-item">
-											<a href="#" className="item-btn btn-ghost btn-light">Get a Quote</a>
+											<a href="/" className="item-btn btn-ghost btn-light">Get a Quote</a>
 										</li>
 									</ul>
 								</div>

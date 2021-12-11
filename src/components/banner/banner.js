@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import '../banner/banner.css';
 import Image from './animation_img';
 
@@ -67,7 +67,7 @@ export default function Banner() {
 						</div>
 					</div>
 					<div className="col-xl-6 order-xl-1 compress-left-side d-flex align-items-center">
-						<div className="main-banner-box-layout" position-relative>
+						<div className="main-banner-box-layout position-relative">
 							<div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400" >
 								<h1 className="item-main-title">We Build Mobile Application</h1>
 							</div>
@@ -76,8 +76,8 @@ export default function Banner() {
 							</div>
 							<div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1800" >
 								<div  className="banner-btns d-flex align-items-center flex-wrap justify-content-center justify-content-xl-start flex-column flex-sm-row">
-									<a href="#" className="item-btn btn-ghost btn-dark"><i className="fab fa-apple"></i>App Store</a>
-									<a href="#" className="item-btn btn-ghost btn-dark mr-0"><img src="../../img/google-app.png" alt="google" />Google Play</a>
+									<a href="/" className="item-btn btn-ghost btn-dark"><i className="fab fa-apple"></i>App Store</a>
+									<a href="/" className="item-btn btn-ghost btn-dark mr-0"><img src="../../img/google-app.png" alt="google" />Google Play</a>
 								</div>
 							</div>
 						</div>

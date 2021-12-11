@@ -78,11 +78,11 @@ export default function Footer() {
 									<li className="phn-number">+001 548 159 2491</li>
 								</ul>
 								<ul className="footer-social d-flex justify-content-start flex-wrap align-items-center mb-2">
-									<li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i className="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i className="fab fa-instagram"></i></a></li>
-									<li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
-									<li><a href="#"><i className="fab fa-youtube"></i></a></li>
+									<li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+									<li><a href="/"><i className="fab fa-twitter"></i></a></li>
+									<li><a href="/"><i className="fab fa-instagram"></i></a></li>
+									<li><a href="/"><i className="fab fa-pinterest-p"></i></a></li>
+									<li><a href="/"><i className="fab fa-youtube"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -103,10 +103,10 @@ export default function Footer() {
 								<h3 className="footer-widget-heading heading-light">Important Link</h3>
 								<ul className="footer-menu">
 									<li><a href="about.html">About Us</a></li>
-									<li><a href="#">How to work</a></li>
+									<li><a href="/">How to work</a></li>
 									<li><a href="contact.html">Contact Us</a></li>
-									<li><a href="#">Our Media</a></li>
-									<li><a href="#">Privacy</a></li>
+									<li><a href="/">Our Media</a></li>
+									<li><a href="/">Privacy</a></li>
 								</ul>
 							</div>
 						</div>
@@ -116,11 +116,11 @@ export default function Footer() {
 								<ul className="footer-post">
 									<li>
 										<div className="item-date">April 2, 2019</div>
-										<h4 className="item-title"><a href="#">Work and Look Good in our ready the Process</a></h4>
+										<h4 className="item-title"><a href="/">Work and Look Good in our ready the Process</a></h4>
 									</li>
 									<li>
 										<div className="item-date">April 15, 2019</div>
-										<h4 className="item-title"><a href="#">We're on a mission to build better future where technology.</a></h4>
+										<h4 className="item-title"><a href="/">We're on a mission to build better future where technology.</a></h4>
 									</li>
 								</ul>
 							</div>
@@ -133,7 +133,7 @@ export default function Footer() {
 					<div className="row">
 						<div className="col-sm-6 col-12">
 							<div className="copy-right-left-box d-flex align-items-center justify-content-flex-start justify-content-lg-center h-100">
-								<p className="copy-right-text mb-0">© 2020 <a href="https://www.radiustheme.com" rel="nofollow" target="_blank">RadiusTheme.</a> All Rights Reserved</p>
+								<p className="copy-right-text mb-0">© 2020 <a href="https://www.radiustheme.com" rel="nofollow">RadiusTheme.</a> All Rights Reserved</p>
 							</div>
 						</div>
 						<div className="col-sm-6 col-12">

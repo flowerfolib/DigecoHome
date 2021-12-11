@@ -13,7 +13,7 @@ export default function PostItem(props) {
                     </div>
                     <div className="item-content p-4">
                         <ul className="entry-meta d-flex flex-wrap align-items-center mb-2 meta-color-accent justify-content-between">
-                            <li className="d-flex mr-4 align-items-center"><a className="d-inline-flex align-items-center" href="#">{ props.date }</a></li>
+                            <li className="d-flex mr-4 align-items-center"><a className="d-inline-flex align-items-center" href="/">{ props.date }</a></li>
                         </ul>
                         <h3 className="entry-title mb-0 title-color-dark">
                             <a href="blog-details.html">{ props.title }</a>

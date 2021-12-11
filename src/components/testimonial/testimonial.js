@@ -39,6 +39,7 @@ export default function Testimonial() {
 
 	let renderUI = listCustomer.map((customer, index) => {
 		return <Viewer 
+				key={index}
 				title={customer.title}
 				comment={customer.comment}
 				image={customer.image}
