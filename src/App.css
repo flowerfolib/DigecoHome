@@ -1,0 +1,316 @@
+html {
+  overflow: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #646464;
+  font-weight: 400;
+  height: 100%;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  background-color: #ffffff;
+  overflow: inherit;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+p {
+  margin: 0 0 20px 0;
+  color: #646464;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 20px 0;
+  font-weight: 500;
+  color: #111111;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 56px;
+}
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+h2 {
+  font-size: 36px;
+  line-height: 50px;
+}
+@media only screen and (max-width: 1199px) {
+  h2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  h2 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+h3 {
+  font-size: 22px;
+  line-height: 36px;
+}
+@media only screen and (max-width: 767px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+@media only screen and (max-width: 767px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+h5 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  h5 {
+    font-size: 17px;
+  }
+}
+h6 {
+  font-size: 16px;
+  line-height: 30px;
+}
+a { text-decoration: none !important; }
+
+:root {
+  --primary-color: #5a49f8;
+  --secondary-color: #750ed5;
+  --white-color: #FFFFFF;
+  --dark-color: #000000;
+  --acent-color: #f5f5f5;
+}
+.btn-ghost.btn-light {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+.btn-ghost.btn-light:hover {
+  color: #1d2124;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.btn-ghost:hover {
+  color: #ffffff;
+  background-color: #5a49f8;
+}
+@media (min-width: 576px) {
+  .container {
+      max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+      max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+      max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px; 
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.btn-ghost {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+  padding: 10px 27px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transition: all 0.5s ease-in-out;
+}
+.btn-ghost i {
+  margin-top: 2px;
+  line-height: 1;
+  margin-left: 12px;
+  transform: translateX(0px);
+  color: #5a49f8;
+  transition: all 0.5s ease-in-out;
+}
+.btn-ghost i:before {
+  font-size: 18px;
+}
+.btn-ghost:hover {
+  color: #ffffff;
+  background-color: #5a49f8;
+}
+.btn-ghost:hover i {
+  color: #ffffff;
+  transform: translateX(5px);
+}
+.btn-ghost:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn-ghost.btn-dark {
+  border-color: #1d2124;
+  color: #1d2124;
+  background-color: transparent;
+}
+.btn-ghost.btn-dark i {
+  color: #1d2124;
+}
+.btn-ghost.btn-dark:hover {
+  color: #ffffff;
+  background-color: #1d2124;
+  border-color: #1d2124;
+}
+.btn-ghost.btn-dark:hover i {
+  color: #ffffff;
+}
+.btn-ghost.btn-gradient {
+  color: #000000;
+  border: 0;
+  padding: 12px 35px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(#fff, #fff), linear-gradient(245deg, #00d7f7, #2671fb);
+  position: relative;
+  z-index: 1;
+}
+.btn-ghost.btn-gradient:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(245deg, #00d7f7, #2671fb);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.btn-ghost.btn-gradient:hover {
+  color: #ffffff;
+}
+.btn-ghost.btn-gradient:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show > .btn-light.dropdown-toggle {
+  border-color: transparent;
+  background-color: transparent;
+}
+.section-heading {
+  position: relative;
+  z-index: 0;
+  text-align: center;
+  margin-bottom: 55px;
+}
+@media only screen and (max-width: 767px) {
+  .section-heading {
+    margin-bottom: 45px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .section-heading {
+    margin-bottom: 35px;
+  }
+}
+.section-heading .heading-sub-title {
+  text-align: center;
+  color: #5a49f8;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+.section-heading .heading-main-title {
+  font-weight: 700;
+}
+.section-heading .heading-paragraph {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 1199px) {
+  .section-heading .heading-paragraph {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .section-heading .heading-paragraph {
+    width: 100%;
+  }
+}
+.section-heading.heading-dark .heading-main-title {
+  color: #000000;
+}
+.section-heading.heading-light .heading-sub-title {
+  color: #ffffff;
+}
+.section-heading.heading-light .heading-paragraph {
+  color: #ffffff;
+}
+.section-heading.heading-layout1 .heading-main-title {
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .section-heading.heading-layout1 .heading-main-title {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .section-heading.heading-layout1 .heading-main-title {
+    margin-bottom: 5px;
+  }
+}

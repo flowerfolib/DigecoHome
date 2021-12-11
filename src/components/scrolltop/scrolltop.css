@@ -1,0 +1,43 @@
+.return-to-top {
+  overflow: hidden;
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  bottom: -50px;
+  right: 20px;
+  text-align: center;
+  z-index: 9999;
+  background-color: #5a49f8;
+  display: block;
+  font-size: 16px;
+  color: #ffffff;
+  transition: all 0.5s cubic-bezier(0, 0, 0.15, 1.88);
+  cursor: pointer;
+}
+.return-to-top i {
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.return-to-top:hover, .return-to-top:focus {
+  color: #ffffff;
+}
+.return-to-top:hover i, .return-to-top:focus i {
+  animation: toBottomFromTop 0.5s forwards;
+}
+.return-to-top.back-top {
+  bottom: 20px;
+}
+@keyframes toBottomFromTop {
+  49% {
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
