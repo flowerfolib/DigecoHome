@@ -119,6 +119,18 @@ a { text-decoration: none !important; }
   --dark-color: #000000;
   --acent-color: #f5f5f5;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+	background-color: #fff;
+}
+::-webkit-scrollbar-track {
+	background-color: #edeae8; 
+}
+::-webkit-scrollbar-thumb {  
+  border-radius: 35px; 
+  background: var(--primary-color); 
+}
 .btn-ghost.btn-light {
   border-color: #ffffff;
   color: #ffffff;
